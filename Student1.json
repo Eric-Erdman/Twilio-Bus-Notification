@@ -1,9 +1,0 @@
-{
-    "Schedule":[{ "Day":"Monday", "Time":"11:45am", "Stop":"Langdon and North Park"}, 
-    { "Day":"Tuesday", "Time":"11:30am", "Stop":"Observatory and Bascom"}, 
-    { "Day":"Wednesday", "Time":"8:00am", "Stop":"Observatory & N Charter"}, 
-    { "Day":"Thursday", "Time":"9:45am", "Stop":"Linden & N Charter"},
-    { "Day":"Friday", "Time":"10:30am", "Stop":"Linden & Henry"}]
-    ,"Phone Number":"(123)-456-7890"
-   
-   }
