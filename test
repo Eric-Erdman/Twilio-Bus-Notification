@@ -1,0 +1,50 @@
+
+Braden zingler
+
+
+
+ImmutableMultiDict([('phone', '+16083773043'), ('monday_time', '11:00am'), ('monday_stop', '6'), ('tuesday_time', '8:00am'), ('tuesday_stop', '6'), ('wednesday_time', '1:00pm'), ('wednesday_stop', '6'), ('thursday_time', '5:00pm'), ('thursday_stop', '4'), ('friday_time', '1:00pm'), ('friday_stop', '6')])
+ImmutableMultiDict([('phone', '+16083773043'), ('monday_time', '11:00am'), ('monday_stop', '6'), ('tuesday_time', '8:00am'), ('tuesday_stop', '6'), ('wednesday_time', '1:00pm'), ('wednesday_stop', '6'), ('thursday_time', '5:00pm'), ('thursday_stop', '4'), ('friday_time', '1:00pm'), ('friday_stop', '6')])
+ImmutableMultiDict([('phone', '+16083773043'), ('monday_time', '11:00am'), ('monday_stop', '6'), ('tuesday_time', '8:00am'), ('tuesday_stop', '6'), ('wednesday_time', '1:00pm'), ('wednesday_stop', '6'), ('thursday_time', '5:00pm'), ('thursday_stop', '4'), ('friday_time', '1:00pm'), ('friday_stop', '6')])
+
+
+
+
+#Loop to continuously check users schedules and match them with times
+
+current_time = datetime.now(central)
+current_day = current_time.strftime("%A")
+current_time = current_time.strftime("%H:%M")
+
+if current_day.lower() == DayM.lower() and current_time == resultM:
+    print("It's time for Monday's schedule")
+    #SEND STOPM to transitland
+    stop_url = stopFinder(locationM)
+    # Call your function to send API request for Monday's schedule
+    break
+
+elif current_day.lower() == DayT.lower() and current_time == resultT:
+    print("It's time for Tuesday's schedule")
+    # Call your function to send API request for Tuesday's schedule
+    stop_url = stopFinder(locationT)
+    break
+
+elif current_day.lower() == DayW.lower() and current_time == resultW:
+    print("It's time for Wednesday's schedule")
+    stop_url = stopFinder(locationW)
+    # Call your function to send API request for Wednesday's schedule
+    
+    break
+
+elif current_day.lower() == DayR.lower() and current_time == resultR:
+    print("It's time for Thursday's schedule")
+    stop_url = stopFinder(locationR)
+    # Call your function to send API request for Thursday's schedule
+    break
+
+elif current_day.lower() == DayF.lower() and current_time == resultF:
+    print("It's time for Friday's schedule")
+    stop_url = stopFinder(locationF)
+    break
+
+time.sleep(10)

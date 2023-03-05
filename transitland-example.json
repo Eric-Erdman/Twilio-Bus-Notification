@@ -1,0 +1,104 @@
+{
+    "stops": [
+        {
+            "departures": [
+                {
+                    "arrival": {
+                        "delay": null,
+                        "estimated": "11:48:00",
+                        "estimated_utc": "2023-03-05T17:48:00Z",
+                        "scheduled": "11:48:00",
+                        "uncertainty": null
+                    },
+                    "arrival_time": "11:48:00",
+                    "continuous_drop_off": null,
+                    "continuous_pickup": null,
+                    "departure": {
+                        "delay": null,
+                        "estimated": "11:48:00",
+                        "estimated_utc": "2023-03-05T17:48:00Z",
+                        "scheduled": "11:48:00",
+                        "uncertainty": null
+                    },
+                    "departure_time": "11:48:00",
+                    "drop_off_type": 1,
+                    "interpolated": null,
+                    "pickup_type": 0,
+                    "service_date": "2023-03-05",
+                    "shape_dist_traveled": 0,
+                    "stop_headsign": "MEMORIAL UNION: VIA EAGLE HTS",
+                    "stop_sequence": 1,
+                    "timepoint": 1,
+                    "trip": {
+                        "bikes_allowed": 1,
+                        "block_id": "203017",
+                        "direction_id": 0,
+                        "frequencies": [],
+                        "id": 1928671352,
+                        "route": {
+                            "agency": {
+                                "agency_id": "MMT",
+                                "agency_name": "Metro Transit-City of Madison",
+                                "id": 333376,
+                                "onestop_id": "o-dp8m-metrotransit~cityofmadison"
+                            },
+                            "continuous_drop_off": null,
+                            "continuous_pickup": null,
+                            "id": 20000534,
+                            "onestop_id": "r-dp8mj-80",
+                            "route_color": "CE2A1E",
+                            "route_desc": "Daily schedule trips operate at least every 50 minutes. Additional weekday schedule trips operate at least every 15 minutes from approximately 7 AM until 6 PM. Limited trips operate on Holidays.",
+                            "route_id": "10395",
+                            "route_long_name": "",
+                            "route_short_name": "80",
+                            "route_text_color": "000000",
+                            "route_type": 3,
+                            "route_url": "http://www.cityofmadison.com/metro/routes-schedules/route-80"
+                        },
+                        "shape": {
+                            "generated": false,
+                            "id": 95531373,
+                            "shape_id": "62305"
+                        },
+                        "stop_pattern_id": 152,
+                        "timestamp": "2023-03-05T17:01:44Z",
+                        "trip_headsign": "MEMORIAL UNION: VIA EAGLE HTS",
+                        "trip_id": "1125122",
+                        "trip_short_name": "",
+                        "wheelchair_accessible": 1
+                    }
+                }
+            ],
+            "feed_version": {
+                "feed": {
+                    "id": 216,
+                    "onestop_id": "f-dp8m-metrotransit~cityofmadison"
+                },
+                "fetched_at": "2023-02-07T23:00:47.36167Z",
+                "id": 307058,
+                "sha1": "6b5041eec24c860e6443e1fcac07f8a066818362"
+            },
+            "geometry": {
+                "coordinates": [
+                    -89.400154,
+                    43.075933
+                ],
+                "type": "Point"
+            },
+            "id": 432943781,
+            "location_type": 0,
+            "onestop_id": "s-dp8mj9sz3r-langdon~nparkwb",
+            "parent": null,
+            "platform_code": null,
+            "stop_code": "0010",
+            "stop_desc": "This stop (#0010) is westbound on the 898 block of Langdon St nearside Park St (n)",
+            "stop_id": "10",
+            "stop_name": "Langdon \\u0026 N Park (WB)",
+            "stop_timezone": "",
+            "stop_url": "",
+            "tts_stop_name": null,
+            "wheelchair_boarding": 1,
+            "zone_id": ""
+        }
+    ]
+}
